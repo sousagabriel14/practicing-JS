@@ -1,0 +1,100 @@
+header {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    background-color: rgb(199, 192, 192) !important;
+}
+
+/*ESTILIZAÇAO TEXTO H1 E RODAPÉ */
+.basic {
+    color: rgb(134, 134, 134);
+    text-shadow: 2px 2px 5px gray;
+}
+
+div.container{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(218, 218, 218);
+    margin-top: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 5px;
+    border: 2px solid rgb(139, 139, 139);
+    border-radius: 20px;
+    box-shadow: rgb(195, 192, 192) 3px 3px;
+}
+
+p.pInput {
+    text-indent: 5px;
+    letter-spacing: 0px;
+}
+
+input.form-control {
+    height: 30px;
+    width: 150px;
+    margin-left: 7%;
+    border: black 0.5px;
+}
+
+select.form-control {
+    width: 45%;
+    margin-left: 28%;
+    border-radius: 10%;
+}
+
+select, option {
+    font-size: 16px;
+    color: rgb(66, 65, 65);
+}
+
+input.btn-outline-secondary#adc {
+    background-color: gray;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150%;
+    height: 86%;
+    margin-left: 30%;
+}
+
+input.btn-outline-secondary#adc:hover {
+    background-color: green;
+}
+
+input.btn-outline-secondary#final {
+    background-color: gray;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 40%;
+    height: 86%;
+    margin-left: 30%;
+}
+
+input.btn-outline-secondary#final:hover {
+    background-color: red;
+}
+
+div#res {
+    text-align: center;
+    color: gray;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
